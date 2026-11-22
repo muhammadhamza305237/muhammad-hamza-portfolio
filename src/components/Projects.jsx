@@ -303,7 +303,7 @@ export default function Projects() {
             </div>
 
             <a
-              href={personalInfo.socials.github}
+              href="https://github.com/muhammadhamza305237?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3 rounded-xl text-sm font-semibold text-slate-100 bg-slate-850 hover:bg-slate-800 border border-slate-750 hover:border-cyan-500/50 shadow-md hover:shadow-cyan-500/10 transition-all duration-200 group"

@@ -7,7 +7,7 @@ export const personalInfo = {
   location: "Remote / Open to Relocation",
   status: "Available for new opportunities",
   socials: {
-    github: "https://github.com/muhammadhamza305237?tab=repositories",
+    github: "https://github.com/muhammadhamza305237",
     linkedin: "https://www.linkedin.com/in/muhammad-hamza-8a55b8253/",
     email: "mailto:hamzaakram305237@gmail.com",
   },
