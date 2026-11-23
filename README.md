@@ -1,80 +1,23 @@
-# Muhammad Hamza — Developer Portfolio
+# 💼 Developer Portfolio — Muhammad Hamza
 
-A production-ready, dark-themed personal developer portfolio for **Muhammad Hamza (Frontend React Developer)** built with **React**, **Vite**, **Tailwind CSS**, and **Lucide React**.
+A modern, responsive developer portfolio built with **React**, **Tailwind CSS**, and **Vite**, showcasing featured projects, technical skills, and direct contact workflows.
 
----
+**Live Demo:** https://muhammad-hamza-portfolio-seven.vercel.app
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Tech Stack
+- **Framework:** React 18 (Vite)
+- **Styling:** Tailwind CSS (Dark slate theme, custom glassmorphic utilities & animations)
+- **Icons:** Lucide React & custom SVG brand components
+- **Architecture:** Centralized data layer (`src/data/portfolioData.js`) with native React hooks (`useState`, `useEffect`, `useMemo`)
 
-- **Core**: React 18, Vite
-- **Styling**: Tailwind CSS (Tailwind typography, glassmorphism, custom slate palettes)
-- **Icons**: Lucide React
-- **Architecture**: Modular separation of concerns. Centralized configuration in `src/data/portfolioData.js` isolates personal info, project metadata, and skills from UI presentation components.
+## ✨ Key Features
+- **Sticky Glassmorphic Navbar:** Scroll-spy active section highlighting (`#about`, `#projects`, `#skills`, `#contact`) and responsive mobile drawer.
+- **Hero & Code Preview Card:** Availability status badge, key developer metrics, quick social links, and a syntax-highlighted profile card.
+- **Filterable Projects Showcase:** Dynamic category filtering (`useMemo`) for featured projects alongside a secondary grid of additional web apps, complete with Live Demo and GitHub source links.
+- **Categorized Skills Matrix:** Structured breakdown across Frontend Core, State Management, and Tools, Backend & Deployment.
+- **One-Click Email Copy & Contact:** Copy email address directly to clipboard with timed visual confirmation, plus direct mailto and social links.
 
-```
-src/
-├── components/
-│   ├── Navbar.jsx         # Sticky glassmorphic top navigation with smooth scroll & mobile drawer
-│   ├── Hero.jsx           # Impactful headline, tech badge, metrics & quick CTA actions
-│   ├── Projects.jsx       # Featured projects with category filters & compact architectural studies
-│   ├── Skills.jsx         # Categorized tech stack (Frontend, State Management, Tools & Cloud)
-│   ├── Contact.jsx        # One-click copy email button, direct mailto, & social channels
-│   └── Footer.jsx         # Clean footer with quick links & back-to-top handler
-├── data/
-│   └── portfolioData.js   # Centralized single source of truth for portfolio content
-├── App.jsx                # Root application layout
-├── main.jsx               # React DOM entrypoint
-└── index.css              # Tailwind directives and custom utility classes
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18+)
-- npm, yarn, or pnpm
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/muhammadhamza305237/portfolio.git
-
-# Navigate into the project
-cd muhammad-hamza-portfolio
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-### Production Build
-
-```bash
-# Create optimized production build
-npm run build
-
-# Preview production build locally
-npm run preview
-```
-
----
-
-## 🌟 Featured Projects
-
-1. **Cinematic Movie Explorer** — Film discovery app with real-time API ingestion, dynamic search, ratings, and detail routing.  
-   *Live Demo*: [https://cinematic-movie-explorer.vercel.app/](https://cinematic-movie-explorer.vercel.app/)
-2. **Admin Analytics Dashboard** — SaaS dashboard featuring KPI metrics, responsive sidebar, and data visualizations.  
-   *Live Demo*: [https://admin-analytics-dashboard-delta.vercel.app/](https://admin-analytics-dashboard-delta.vercel.app/)
-3. **E-Commerce Storefront** — Full shopping experience with cart state, category filters, and persistent checkout UI.
-4. **Megablog Platform** — Multi-user publishing platform built with Redux Toolkit and Appwrite BaaS.
-
----
-
-## 📬 Contact & Connect
-
-- **GitHub**: [github.com/muhammadhamza305237](https://github.com/muhammadhamza305237)
-- **Role**: Frontend React Developer
+## 🚀 How to run locally
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
